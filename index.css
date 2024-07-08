@@ -1,0 +1,13 @@
+body {
+  background: url("bg.png") repeat;
+  animation: bg-scroll 3s infinite linear 0s;
+}
+
+@keyframes bg-scroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}
